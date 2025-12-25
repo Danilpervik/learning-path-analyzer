@@ -23,5 +23,5 @@ def test_correlation_output():
 
     assert "quiz_attempt" in corr
     assert "assignment_submission" in corr
-    assert corr["quiz_attempt"] > 0.9   # будет ~0.98
+    assert corr["quiz_attempt"] > 0.9  # будет ~0.98
     assert corr["assignment_submission"] < 0.5  # слабая связь (0,1,1 vs 90,70,50)

@@ -3,6 +3,7 @@
 import pandas as pd
 from scipy.stats import pearsonr
 
+
 def compute_activity_grade_correlation(df: pd.DataFrame) -> dict:
     """Compute correlation between activity counts and grades."""
     # Подсчитываем количество каждого event_type по пользователю и курсу

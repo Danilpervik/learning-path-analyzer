@@ -1,5 +1,6 @@
 import pandas as pd
 
+
 def parse_lms_log(filepath: str) -> pd.DataFrame:
     """Parse LMS log CSV into structured DataFrame."""
     df = pd.read_csv(filepath)
