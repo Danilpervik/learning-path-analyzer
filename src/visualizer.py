@@ -1,3 +1,8 @@
+# src/visualizer.py
+
+import matplotlib
+matplotlib.use('Agg')  # ← КЛЮЧЕВАЯ СТРОКА: использовать headless-бэкенд
+
 import matplotlib.pyplot as plt
 import os
 
@@ -15,4 +20,4 @@ def plot_correlations(correlations: dict, output_path: str = "docs/correlation.p
     
     os.makedirs("docs", exist_ok=True)
     plt.savefig(output_path)
-    plt.close()
+    plt.close()  # освобождает память

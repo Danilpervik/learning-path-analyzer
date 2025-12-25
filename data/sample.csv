@@ -1,7 +1,10 @@
 timestamp,user_id,event_type,course_id,grade
-2024-03-01 10:00:00,u123,login,c101,
-2024-03-01 10:05:00,u123,forum_post,c101,
-2024-03-02 14:00:00,u123,quiz_attempt,c101,85
-2024-03-03 09:00:00,u123,assignment_submission,c101,92
-2024-03-01 11:00:00,u456,login,c101,
-2024-03-02 16:00:00,u456,quiz_attempt,c101,65
+2024-01-01,u1,login,c101,
+2024-01-02,u1,quiz_attempt,c101,
+2024-01-03,u1,quiz_attempt,c101,
+2024-01-04,u1,assignment_submission,c101,85
+2024-01-01,u2,login,c101,
+2024-01-02,u2,quiz_attempt,c101,
+2024-01-03,u2,assignment_submission,c101,70
+2024-01-01,u3,login,c101,
+2024-01-02,u3,assignment_submission,c101,50
