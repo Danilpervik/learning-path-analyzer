@@ -40,7 +40,6 @@ timestamp,user_id,event_type,course_id,grade
 
 1. Клонировать репозиторий:
    ```
-   git clone https://github.com/Danilpervik/learning-path-analyzer.git
    cd learning-path-analyzer
    ```
 2. Создать и активировать виртуальное окружение:
