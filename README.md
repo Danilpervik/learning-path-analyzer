@@ -1,7 +1,5 @@
 # Learning Path Analyzer
 
-[![CI](https://github.com/Danilpervik/learning-path-analyzer/actions/workflows/tests.yml/badge.svg)](https://github.com/Danilpervik/learning-path-analyzer/actions/workflows/tests.yml)
-
 Система анализа пути обучения студентов на основе логов LMS (Moodle, Canvas и др.). Проект помогает выявлять, какие типы активностей (форумы, тесты, сдача заданий и др.) наиболее сильно коррелируют с высокой успеваемостью, чтобы преподаватели и студенты могли оптимизировать учебный процесс.
 
 ## Цели
